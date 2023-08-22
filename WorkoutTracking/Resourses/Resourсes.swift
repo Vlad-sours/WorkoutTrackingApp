@@ -13,6 +13,8 @@ enum Resourсes {
         static let inActiveTab = UIColor(hexString: "#8f9394")
         
         static let tabBarSeparator = UIColor(hexString: "#E8ECEF")
+        
+        static let backGroundColor = UIColor(hexString: "#C9E0F0")
     }
     
     enum Strings{
@@ -30,6 +32,11 @@ enum Resourсes {
             static let session = UIImage(systemName: "alarm" )
             static let progress = UIImage(systemName: "chart.bar.xaxis" )
             static let settings = UIImage(systemName: "gearshape" )
+        }
+    }
+    enum Fonts {
+        static func helveticaRegular (with size: CGFloat) -> UIFont {
+            UIFont(name: "Helvetica", size: size) ?? UIFont()
         }
     }
 }

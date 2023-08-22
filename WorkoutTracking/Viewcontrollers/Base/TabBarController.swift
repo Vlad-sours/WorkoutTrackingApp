@@ -8,7 +8,7 @@
 import UIKit
 
 enum Tabs: Int {
-    case overView
+    case overview
     case session
     case progress
     case settings
@@ -36,20 +36,20 @@ final class TabBarController: UITabBarController {
         tabBar.layer.borderWidth = 1
         tabBar.layer.masksToBounds = true
         
-        let overViewContoller = UIViewController()
-        let sessionViewContoller = UIViewController()
-        let progressViewContoller = UIViewController()
-        let settingViewContoller = UIViewController()
+        let overViewContoller = OverViewController()
+        let sessionViewContoller = SessionViewController()
+        let progressViewContoller = ProgressViewController()
+        let settingViewContoller = SettingsViewController()
         
-        let overNavigationVc = UINavigationController(rootViewController: overViewContoller)
-        let sessionNavigationVc = UINavigationController(rootViewController: sessionViewContoller)
-        let progressNavigationVc = UINavigationController(rootViewController: progressViewContoller)
-        let settingsNavigationVc = UINavigationController(rootViewController: settingViewContoller)
+        let overNavigationVc = NavigattionBarController(rootViewController: overViewContoller)
+        let sessionNavigationVc = NavigattionBarController(rootViewController: sessionViewContoller)
+        let progressNavigationVc = NavigattionBarController(rootViewController: progressViewContoller)
+        let settingsNavigationVc = NavigattionBarController(rootViewController: settingViewContoller)
         
         overNavigationVc.tabBarItem = UITabBarItem(
             title: Resourсes.Strings.TabBar.overView,
             image: Resourсes.Images.TabBar.overView,
-            tag: Tabs.overView.rawValue)
+            tag: Tabs.overview.rawValue)
         sessionNavigationVc.tabBarItem = UITabBarItem(
             title: Resourсes.Strings.TabBar.session,
             image: Resourсes.Images.TabBar.session,

@@ -9,25 +9,37 @@
 /* Begin PBXBuildFile section */
 		F588D0052A91F545009B3CB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588D0042A91F545009B3CB3 /* AppDelegate.swift */; };
 		F588D0072A91F546009B3CB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588D0062A91F546009B3CB3 /* SceneDelegate.swift */; };
-		F588D0092A91F546009B3CB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588D0082A91F546009B3CB3 /* ViewController.swift */; };
+		F588D0092A91F546009B3CB3 /* OverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588D0082A91F546009B3CB3 /* OverViewController.swift */; };
 		F588D00E2A91F548009B3CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F588D00D2A91F548009B3CB3 /* Assets.xcassets */; };
 		F588D0112A91F548009B3CB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F588D00F2A91F548009B3CB3 /* LaunchScreen.storyboard */; };
 		F588D01E2A92000E009B3CB3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588D01D2A92000E009B3CB3 /* TabBarController.swift */; };
 		F588D05B2A93EA3F009B3CB3 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588D05A2A93EA3F009B3CB3 /* UIColor+Extension.swift */; };
 		F588D05D2A93EAB3009B3CB3 /* Resourсes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588D05C2A93EAB3009B3CB3 /* Resourсes.swift */; };
+		F588D05F2A952392009B3CB3 /* NavigattionBarConttroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588D05E2A952392009B3CB3 /* NavigattionBarConttroller.swift */; };
+		F588D0612A9530C4009B3CB3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588D0602A9530C4009B3CB3 /* BaseViewController.swift */; };
+		F588D0632A95356C009B3CB3 /* View+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588D0622A95356C009B3CB3 /* View+Extention.swift */; };
+		F588D0662A953A8F009B3CB3 /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588D0652A953A8F009B3CB3 /* SessionViewController.swift */; };
+		F588D0682A953AB1009B3CB3 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588D0672A953AB1009B3CB3 /* ProgressViewController.swift */; };
+		F588D06A2A953AD9009B3CB3 /* SettingsViewCoontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588D0692A953AD9009B3CB3 /* SettingsViewCoontroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F588D0012A91F545009B3CB3 /* WorkoutTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F588D0042A91F545009B3CB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F588D0062A91F546009B3CB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F588D0082A91F546009B3CB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F588D0082A91F546009B3CB3 /* OverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewController.swift; sourceTree = "<group>"; };
 		F588D00D2A91F548009B3CB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F588D0102A91F548009B3CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F588D0122A91F548009B3CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F588D01D2A92000E009B3CB3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		F588D05A2A93EA3F009B3CB3 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		F588D05C2A93EAB3009B3CB3 /* Resourсes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resourсes.swift"; sourceTree = "<group>"; };
+		F588D05E2A952392009B3CB3 /* NavigattionBarConttroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigattionBarConttroller.swift; sourceTree = "<group>"; };
+		F588D0602A9530C4009B3CB3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		F588D0622A95356C009B3CB3 /* View+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extention.swift"; sourceTree = "<group>"; };
+		F588D0652A953A8F009B3CB3 /* SessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
+		F588D0672A953AB1009B3CB3 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		F588D0692A953AD9009B3CB3 /* SettingsViewCoontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewCoontroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,7 @@
 		F588D01A2A91F7EC009B3CB3 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
+				F588D05C2A93EAB3009B3CB3 /* Resourсes.swift */,
 				F588D00D2A91F548009B3CB3 /* Assets.xcassets */,
 			);
 			path = Resourses;
@@ -90,8 +103,11 @@
 		F588D01B2A91F800009B3CB3 /* Viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
-				F588D0082A91F546009B3CB3 /* ViewController.swift */,
-				F588D01D2A92000E009B3CB3 /* TabBarController.swift */,
+				F588D0642A953A4F009B3CB3 /* Base */,
+				F588D0082A91F546009B3CB3 /* OverViewController.swift */,
+				F588D0652A953A8F009B3CB3 /* SessionViewController.swift */,
+				F588D0672A953AB1009B3CB3 /* ProgressViewController.swift */,
+				F588D0692A953AD9009B3CB3 /* SettingsViewCoontroller.swift */,
 			);
 			path = Viewcontrollers;
 			sourceTree = "<group>";
@@ -108,9 +124,19 @@
 			isa = PBXGroup;
 			children = (
 				F588D05A2A93EA3F009B3CB3 /* UIColor+Extension.swift */,
-				F588D05C2A93EAB3009B3CB3 /* Resourсes.swift */,
+				F588D0622A95356C009B3CB3 /* View+Extention.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		F588D0642A953A4F009B3CB3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F588D01D2A92000E009B3CB3 /* TabBarController.swift */,
+				F588D0602A9530C4009B3CB3 /* BaseViewController.swift */,
+				F588D05E2A952392009B3CB3 /* NavigattionBarConttroller.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,10 +209,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F588D0092A91F546009B3CB3 /* ViewController.swift in Sources */,
+				F588D05F2A952392009B3CB3 /* NavigattionBarConttroller.swift in Sources */,
+				F588D0092A91F546009B3CB3 /* OverViewController.swift in Sources */,
 				F588D01E2A92000E009B3CB3 /* TabBarController.swift in Sources */,
+				F588D0682A953AB1009B3CB3 /* ProgressViewController.swift in Sources */,
+				F588D0662A953A8F009B3CB3 /* SessionViewController.swift in Sources */,
 				F588D0052A91F545009B3CB3 /* AppDelegate.swift in Sources */,
+				F588D0632A95356C009B3CB3 /* View+Extention.swift in Sources */,
 				F588D05D2A93EAB3009B3CB3 /* Resourсes.swift in Sources */,
+				F588D06A2A953AD9009B3CB3 /* SettingsViewCoontroller.swift in Sources */,
+				F588D0612A9530C4009B3CB3 /* BaseViewController.swift in Sources */,
 				F588D0072A91F546009B3CB3 /* SceneDelegate.swift in Sources */,
 				F588D05B2A93EA3F009B3CB3 /* UIColor+Extension.swift in Sources */,
 			);
