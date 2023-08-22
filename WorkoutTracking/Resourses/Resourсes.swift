@@ -13,7 +13,7 @@ enum Resourсes {
         static let inActiveTab = UIColor(hexString: "#8f9394")
         
         static let tabBarSeparator = UIColor(hexString: "#E8ECEF")
-        
+        static let secondary = UIColor(hexString: "#545C77")
         static let backGroundColor = UIColor(hexString: "#C9E0F0")
     }
     
@@ -27,6 +27,9 @@ enum Resourсes {
     }
     
     enum Images{
+        enum Overview{
+            static let imageButton = UIImage(systemName: "chevron.down")
+        }
         enum TabBar{
             static let overView = UIImage(systemName: "house" )
             static let session = UIImage(systemName: "alarm" )
@@ -38,5 +41,8 @@ enum Resourсes {
         static func helveticaRegular (with size: CGFloat) -> UIFont {
             UIFont(name: "Helvetica", size: size) ?? UIFont()
         }
+    }
+    enum Overview{
+        static let allWorkoutsButton = "All Workouts"
     }
 }
