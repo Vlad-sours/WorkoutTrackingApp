@@ -22,6 +22,8 @@
 		F588D0682A953AB1009B3CB3 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588D0672A953AB1009B3CB3 /* ProgressViewController.swift */; };
 		F588D06A2A953AD9009B3CB3 /* SettingsViewCoontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588D0692A953AD9009B3CB3 /* SettingsViewCoontroller.swift */; };
 		F588D06E2A954D4D009B3CB3 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588D06D2A954D4D009B3CB3 /* SecondaryButton.swift */; };
+		F5DD78902A98E3050040C081 /* OverViewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD788F2A98E3050040C081 /* OverViewNavBar.swift */; };
+		F5DD78922A98E3C40040C081 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD78912A98E3C40040C081 /* BaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		F588D0672A953AB1009B3CB3 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
 		F588D0692A953AD9009B3CB3 /* SettingsViewCoontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewCoontroller.swift; sourceTree = "<group>"; };
 		F588D06D2A954D4D009B3CB3 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		F5DD788F2A98E3050040C081 /* OverViewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewNavBar.swift; sourceTree = "<group>"; };
+		F5DD78912A98E3C40040C081 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 				F588D01D2A92000E009B3CB3 /* TabBarController.swift */,
 				F588D0602A9530C4009B3CB3 /* BaseViewController.swift */,
 				F588D05E2A952392009B3CB3 /* NavigattionBarConttroller.swift */,
+				F5DD78912A98E3C40040C081 /* BaseView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				F588D06D2A954D4D009B3CB3 /* SecondaryButton.swift */,
+				F5DD788F2A98E3050040C081 /* OverViewNavBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -234,11 +240,13 @@
 				F588D0682A953AB1009B3CB3 /* ProgressViewController.swift in Sources */,
 				F588D0662A953A8F009B3CB3 /* SessionViewController.swift in Sources */,
 				F588D0052A91F545009B3CB3 /* AppDelegate.swift in Sources */,
+				F5DD78902A98E3050040C081 /* OverViewNavBar.swift in Sources */,
 				F588D06E2A954D4D009B3CB3 /* SecondaryButton.swift in Sources */,
 				F588D0632A95356C009B3CB3 /* View+Extention.swift in Sources */,
 				F588D05D2A93EAB3009B3CB3 /* Resourсes.swift in Sources */,
 				F588D06A2A953AD9009B3CB3 /* SettingsViewCoontroller.swift in Sources */,
 				F588D0612A9530C4009B3CB3 /* BaseViewController.swift in Sources */,
+				F5DD78922A98E3C40040C081 /* BaseView.swift in Sources */,
 				F588D0072A91F546009B3CB3 /* SceneDelegate.swift in Sources */,
 				F588D05B2A93EA3F009B3CB3 /* UIColor+Extension.swift in Sources */,
 			);

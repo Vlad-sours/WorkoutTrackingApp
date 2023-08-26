@@ -15,6 +15,8 @@ enum Resourсes {
         static let tabBarSeparator = UIColor(hexString: "#E8ECEF")
         static let secondary = UIColor(hexString: "#545C77")
         static let backGroundColor = UIColor(hexString: "#C9E0F0")
+        
+        static let backColorAllWorkout = UIColor(hexString: "#e1ebf7")
     }
     
     enum Strings{
@@ -23,6 +25,9 @@ enum Resourсes {
             static let session = "Session"
             static let progress = "Progress"
             static let settings = "Settings"
+        }
+        enum NabBar{
+            static let titleNavBar = "Today"
         }
     }
     
@@ -35,6 +40,9 @@ enum Resourсes {
             static let session = UIImage(systemName: "alarm" )
             static let progress = UIImage(systemName: "chart.bar.xaxis" )
             static let settings = UIImage(systemName: "gearshape" )
+        }
+        enum NavBar{
+            static let addButton = UIImage(named: "custom.plus.circle.fill@4x")
         }
     }
     enum Fonts {

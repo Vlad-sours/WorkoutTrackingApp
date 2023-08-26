@@ -9,7 +9,8 @@ import UIKit
 
 class OverViewController: BaseViewController {
     
-    private let allWorkOutsButton = SecondaryButton()
+    private let navBar = OverViewNavBar()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,22 +23,30 @@ extension OverViewController {
     
     override func addViews() {
         super.addViews()
-        view.addSubview(allWorkOutsButton)
+        view.addSubview(navBar)
+ 
     }
     override func layoutViews() {
         super.layoutViews()
         
         NSLayoutConstraint.activate([
-            allWorkOutsButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-            allWorkOutsButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            allWorkOutsButton.heightAnchor.constraint(equalToConstant: 28),
-            allWorkOutsButton.widthAnchor.constraint(equalToConstant: 130)
+            navBar.topAnchor.constraint(equalTo: view.topAnchor),
+            navBar.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            navBar.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            navBar.heightAnchor.constraint(equalToConstant: 113),
+            
+
         ])
     }
     
     override func configure() {
         super.configure()
-        allWorkOutsButton.translatesAutoresizingMaskIntoConstraints = false
-        allWorkOutsButton.setTitle(Resourсes.Overview.allWorkoutsButton)
+         
+        navigationController?.navigationBar.isHidden = true  
+        navBar.translatesAutoresizingMaskIntoConstraints = false
+        
+        
     }
 }
+
+

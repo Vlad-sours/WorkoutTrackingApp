@@ -48,7 +48,7 @@ private extension SecondaryButton{
     }
     
     func configure(){
-        backgroundColor = Resourсes.Color.secondary
+        backgroundColor = Resourсes.Color.backColorAllWorkout
         layer.cornerRadius = 15
         
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -61,5 +61,6 @@ private extension SecondaryButton{
             .withRenderingMode(.alwaysTemplate)
         icon.tintColor = Resourсes.Color.activeTab
         
+        makeSystemEffect(self)
     }
 }
