@@ -24,6 +24,7 @@
 		F588D06E2A954D4D009B3CB3 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F588D06D2A954D4D009B3CB3 /* SecondaryButton.swift */; };
 		F5DD78902A98E3050040C081 /* OverViewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD788F2A98E3050040C081 /* OverViewNavBar.swift */; };
 		F5DD78922A98E3C40040C081 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD78912A98E3C40040C081 /* BaseView.swift */; };
+		F5DD78952A9A499C0040C081 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD78942A9A499C0040C081 /* WeekView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		F588D06D2A954D4D009B3CB3 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		F5DD788F2A98E3050040C081 /* OverViewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewNavBar.swift; sourceTree = "<group>"; };
 		F5DD78912A98E3C40040C081 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		F5DD78942A9A499C0040C081 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,10 +160,19 @@
 		F588D06C2A954D0F009B3CB3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F5DD78932A9A495E0040C081 /* WeekView */,
 				F588D06D2A954D4D009B3CB3 /* SecondaryButton.swift */,
 				F5DD788F2A98E3050040C081 /* OverViewNavBar.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F5DD78932A9A495E0040C081 /* WeekView */ = {
+			isa = PBXGroup;
+			children = (
+				F5DD78942A9A499C0040C081 /* WeekView.swift */,
+			);
+			path = WeekView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5DD78952A9A499C0040C081 /* WeekView.swift in Sources */,
 				F588D05F2A952392009B3CB3 /* NavigattionBarConttroller.swift in Sources */,
 				F588D0092A91F546009B3CB3 /* OverViewController.swift in Sources */,
 				F588D01E2A92000E009B3CB3 /* TabBarController.swift in Sources */,

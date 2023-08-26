@@ -12,7 +12,11 @@ final class OverViewNavBar: BaseView {
     private let titleLabel = UILabel()
     private let allWorkOutsButton = SecondaryButton()
     private let addButtton = UIButton()
-    private let weekDay = UIView()
+    private let weekDay: UIView = {
+        let view = UIView()
+        view.backgroundColor = .blue.withAlphaComponent(0.2)
+        return view
+    }()
     
     func addAllWorkOutsAction(_ action: Selector, with target: Any?){
         allWorkOutsButton.addTarget(target, action: action, for: .touchUpInside)
@@ -26,9 +30,10 @@ extension OverViewNavBar {
     override func addViews() {
         super.addViews()
         
-        addSubview(titleLabel)
-        addSubview(addButtton)
-        addSubview(allWorkOutsButton )
+        addView(titleLabel)
+        addView(addButtton)
+        addView(allWorkOutsButton)
+        addView(weekDay)
         
     }
     override func layoutSubviews() {
@@ -50,25 +55,26 @@ extension OverViewNavBar {
             
             titleLabel.centerYAnchor.constraint(equalTo: addButtton.centerYAnchor),
             titleLabel.trailingAnchor.constraint(equalTo: allWorkOutsButton.leadingAnchor ),
-            titleLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16)
+            titleLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
+            
+            weekDay.topAnchor.constraint(equalTo: addButtton.bottomAnchor, constant: 15),
+            weekDay.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 15),
+            weekDay.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -15),
+            weekDay.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -15),
+            weekDay.heightAnchor.constraint(equalToConstant: 47)
+            
         ])
     }
     override func configure() {
         super.configure()
         backgroundColor = .white
         
-        
-        titleLabel.translatesAutoresizingMaskIntoConstraints = false
         titleLabel.text = "Today"
         titleLabel.font = Resourсes.Fonts.helveticaRegular(with: 27)
         
-        allWorkOutsButton.translatesAutoresizingMaskIntoConstraints = false
         allWorkOutsButton.setTitle(Resourсes.Overview.allWorkoutsButton)
 
-        
-        addButtton.translatesAutoresizingMaskIntoConstraints = false
         addButtton.setImage(Resourсes.Images.NavBar.addButton, for: .normal)
-
     }
 }
 

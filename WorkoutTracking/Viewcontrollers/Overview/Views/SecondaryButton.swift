@@ -30,8 +30,8 @@ final class SecondaryButton: UIButton {
 
 private extension SecondaryButton{
     func addViews(){
-        addSubview(label)
-        addSubview(icon)
+        addView(label)
+        addView(icon)
     }
     
     func layoutViews(){
@@ -51,12 +51,10 @@ private extension SecondaryButton{
         backgroundColor = Resourсes.Color.backColorAllWorkout
         layer.cornerRadius = 15
         
-        label.translatesAutoresizingMaskIntoConstraints = false
         label.textColor = Resourсes.Color.activeTab
         label.textAlignment = .center
         label.font = Resourсes.Fonts.helveticaRegular(with: 15)
         
-        icon.translatesAutoresizingMaskIntoConstraints = false
         icon.image = Resourсes.Images.Overview.imageButton?
             .withRenderingMode(.alwaysTemplate)
         icon.tintColor = Resourсes.Color.activeTab

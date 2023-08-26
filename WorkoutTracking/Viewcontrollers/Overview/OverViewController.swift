@@ -10,14 +10,10 @@ import UIKit
 class OverViewController: BaseViewController {
     
     private let navBar = OverViewNavBar()
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
-    
-    
 }
 extension OverViewController {
     
@@ -33,7 +29,7 @@ extension OverViewController {
             navBar.topAnchor.constraint(equalTo: view.topAnchor),
             navBar.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             navBar.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            navBar.heightAnchor.constraint(equalToConstant: 113),
+           
             
 
         ])
