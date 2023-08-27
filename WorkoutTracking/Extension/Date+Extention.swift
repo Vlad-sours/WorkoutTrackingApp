@@ -14,7 +14,7 @@ extension Date {
     var startDayOfWeek: Date {
         let componets = calendar.dateComponents([.yearForWeekOfYear,.weekOfYear], from: self)
         guard let firstDay = calendar.date(from: componets) else {return self}
-        return calendar.date(byAdding: .day, value: 1, to: firstDay) ?? self
+        return calendar.date(byAdding: .day, value: 0, to: firstDay) ?? self
     }
     
     func ageForward(to days: Int) -> Date {
@@ -25,6 +25,8 @@ extension Date {
         
         let components = calendar.dateComponents([.year, .month, .day], from: self)
         return calendar.date(from: components) ?? self
+        
+       
         
     }
 }

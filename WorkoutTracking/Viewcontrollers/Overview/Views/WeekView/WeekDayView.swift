@@ -20,13 +20,14 @@ extension WeekView{
             let currentDay = startDayWeek.ageForward(to: index)
             let day = Calendar.current.component(.day, from: currentDay)
             
-            let isTooday = currentDay.cutTime() == Date().cutTime()
+            let isToday = currentDay.cutTime() == Date().cutTime()
+            print(day)
              
-            backgroundColor = isTooday ? Resourсes.Color.activeTab : Resourсes.Color.backGroundColor
-            nameLabel.text = name
-            nameLabel.textColor = isTooday ? .white : Resourсes.Color.activeTab
+            backgroundColor = isToday ? Resourсes.Color.activeTab : Resourсes.Color.backGroundColor
+            nameLabel.text = name.uppercased()
+            nameLabel.textColor = isToday ? .white : Resourсes.Color.inActiveTab
             dateLabel.text = "\(day)"
-            dateLabel.textColor = isTooday ? .white : Resourсes.Color.activeTab
+            dateLabel.textColor = isToday ? .white : Resourсes.Color.inActiveTab
         }
     }
 }
