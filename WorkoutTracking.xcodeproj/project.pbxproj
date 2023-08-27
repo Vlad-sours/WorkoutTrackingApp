@@ -25,6 +25,8 @@
 		F5DD78902A98E3050040C081 /* OverViewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD788F2A98E3050040C081 /* OverViewNavBar.swift */; };
 		F5DD78922A98E3C40040C081 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD78912A98E3C40040C081 /* BaseView.swift */; };
 		F5DD78952A9A499C0040C081 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD78942A9A499C0040C081 /* WeekView.swift */; };
+		F5DD78972A9A4EE60040C081 /* WeekDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD78962A9A4EE60040C081 /* WeekDayView.swift */; };
+		F5DD78992A9A5DF20040C081 /* Date+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD78982A9A5DF20040C081 /* Date+Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		F5DD788F2A98E3050040C081 /* OverViewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewNavBar.swift; sourceTree = "<group>"; };
 		F5DD78912A98E3C40040C081 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		F5DD78942A9A499C0040C081 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		F5DD78962A9A4EE60040C081 /* WeekDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayView.swift; sourceTree = "<group>"; };
+		F5DD78982A9A5DF20040C081 /* Date+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,7 @@
 			children = (
 				F588D05A2A93EA3F009B3CB3 /* UIColor+Extension.swift */,
 				F588D0622A95356C009B3CB3 /* View+Extention.swift */,
+				F5DD78982A9A5DF20040C081 /* Date+Extention.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				F5DD78942A9A499C0040C081 /* WeekView.swift */,
+				F5DD78962A9A4EE60040C081 /* WeekDayView.swift */,
 			);
 			path = WeekView;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 				F588D06A2A953AD9009B3CB3 /* SettingsViewCoontroller.swift in Sources */,
 				F588D0612A9530C4009B3CB3 /* BaseViewController.swift in Sources */,
 				F5DD78922A98E3C40040C081 /* BaseView.swift in Sources */,
+				F5DD78972A9A4EE60040C081 /* WeekDayView.swift in Sources */,
 				F588D0072A91F546009B3CB3 /* SceneDelegate.swift in Sources */,
+				F5DD78992A9A5DF20040C081 /* Date+Extention.swift in Sources */,
 				F588D05B2A93EA3F009B3CB3 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

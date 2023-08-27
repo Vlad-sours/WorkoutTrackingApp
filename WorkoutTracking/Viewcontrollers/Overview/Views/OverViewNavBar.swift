@@ -12,11 +12,7 @@ final class OverViewNavBar: BaseView {
     private let titleLabel = UILabel()
     private let allWorkOutsButton = SecondaryButton()
     private let addButtton = UIButton()
-    private let weekDay: UIView = {
-        let view = UIView()
-        view.backgroundColor = .blue.withAlphaComponent(0.2)
-        return view
-    }()
+    private let weekDay = WeekView()
     
     func addAllWorkOutsAction(_ action: Selector, with target: Any?){
         allWorkOutsButton.addTarget(target, action: action, for: .touchUpInside)
@@ -65,8 +61,8 @@ extension OverViewNavBar {
             
         ])
     }
-    override func configure() {
-        super.configure()
+    override func configureView() {
+        super.configureView()
         backgroundColor = .white
         
         titleLabel.text = "Today"
